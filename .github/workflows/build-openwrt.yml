@@ -18,7 +18,7 @@ on:
         description: 'SSH connection to Actions'
         required: true
         default: 'true'
-
+        type: boolean
 env:
   #REPO_URL:  https://github.com/coolsnowwolf/lede
   REPO_URL:  https://github.com/padavanonly/immortalwrt
